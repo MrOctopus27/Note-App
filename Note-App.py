@@ -72,7 +72,7 @@ def minimize_app(e):
 # Function for reminizing the app
 def reminimize_app(e):
     root.update_idletasks()
-    root.overrideredirect(True)
+    root.overrideredirect(True) #comment
     root.state('normal')
 
 # Binds the titlebar so it reminimize the app
